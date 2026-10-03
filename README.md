@@ -19,7 +19,7 @@ Looking for a dynamic cockpit view that automatically turns toward the apex as y
 * **Real-Time Adjustments:** Fine-tune sensitivity, filters, and deadzones on the fly while out on the stage without restarting!
 
 ## 🛠️ Step-by-Step Setup Guide
-
+0. **Download OpenTrack: https://github.com/opentrack/opentrack**
 1. **Configure OpenTrack:**
    * Open OpenTrack and set **Input** to *UDP over network* (default port is usually `4242`).
    * Set **Output** to *freetrack 2.0 Enhanced*.
