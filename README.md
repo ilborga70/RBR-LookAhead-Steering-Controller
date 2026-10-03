@@ -7,6 +7,12 @@ Looking for a dynamic cockpit view that automatically turns toward the apex as y
 <img width="1408" height="768" alt="RBR LookAhead Steering Controller v0 9 0 0" src="https://github.com/user-attachments/assets/89e1c572-1618-433e-9230-e0e0736910d7" />
 <img width="1362" height="623" alt="RBR LookAhead Steering Controller v0 9 0 0_" src="https://github.com/user-attachments/assets/83172801-16c6-4b36-bd73-628c42e08d69" />
 
+🇬🇧 What's New in Version 0.9.0.0
+- Dynamic Apex Roll Tilt: Added natural camera roll/tilt toward the corner apex when steering.
+- UI Controls: Added an ON/OFF toggle for the roll tilt along with an intensity percentage adjustment slider/spinbox.
+- Complete UDP Telemetry: Real-time display of both Yaw and Roll values sent to OpenTrack at 60Hz.
+- JSON Configuration Save: Integrated automatic saving and loading for the Roll Tilt settings in the JSON configuration file.
+
 ## ✨ Why Try It?
 
 * **Zero Game File Modifications:** Operates completely as an independent external controller.
