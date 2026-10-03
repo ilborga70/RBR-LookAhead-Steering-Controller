@@ -1,6 +1,4 @@
-# RBR-LookAhead-Steering-Controller
-
-RBR LookAhead Steering Controller (OpenTrack Included)
+# RBR-LookAhead-Steering-Controller (OpenTrack Included)
 
 Looking for a dynamic cockpit view that automatically turns toward the apex as you steer? Here is the complete guide to installing and configuring this innovative utility for RBR!
 
