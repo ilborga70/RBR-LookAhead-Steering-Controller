@@ -2,6 +2,12 @@
 
 Looking for a dynamic cockpit view that automatically turns toward the apex as you steer? Here is the complete guide to installing and configuring this innovative utility for RBR!
 
+📢 "RBR LookAhead Steering Controller" and "Director's Cut" are NOT the same thing!
+- Since the names have been causing some confusion among drivers, it is important to clearly distinguish between these two utilities.
+- They serve completely different purposes.
+
+⚠️"If you create a similar feature or are inspired by this implementation, attribution to ilborga70 is required."
+
 <img width="1408" height="768" alt="RBR LookAhead Steering Controller v0 9 0 0" src="https://github.com/user-attachments/assets/89e1c572-1618-433e-9230-e0e0736910d7" />
 <img width="1362" height="623" alt="RBR LookAhead Steering Controller v0 9 0 0_" src="https://github.com/user-attachments/assets/83172801-16c6-4b36-bd73-628c42e08d69" />
 
