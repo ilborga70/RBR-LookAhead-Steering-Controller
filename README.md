@@ -4,9 +4,7 @@
 
 To correctly add the profile files (the files with the .ini extension, such as RBR_LHD.ini or RBR_RHD.ini), follow these steps:
 
-Download Configuration RBR Profile Files Opentrack-2.3:
-
-[URL unfurl="true"]https://github.com/ilborga70/RBR-LookAhead-Steering-Controller/releases[/URL]
+**Download Configuration RBR Profile Files Opentrack-2.3: https://github.com/ilborga70/RBR-LookAhead-Steering-Controller**
 
 📂 1. Find the correct folder Regardless of whether you use the Portable or Installer version, Opentrack always looks for profiles in your personal Documents folder.
 
