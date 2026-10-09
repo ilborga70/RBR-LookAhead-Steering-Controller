@@ -1,6 +1,19 @@
-# RBR-LookAhead-Steering-Controller
+🛠️ Installation Guide: How to install configuration profiles on Opentrack
 
-Looking for a dynamic cockpit view that automatically turns toward the apex as you steer? Here is the complete guide to installing and configuring this innovative utility for RBR!
+To correctly add the profile files (the files with the .ini extension, such as RBR_LHD.ini or RBR_RHD.ini), follow these steps:
+
+📂 1. Find the correct folder
+Regardless of whether you use the Portable or Installer version, Opentrack always looks for profiles in your personal Documents folder.
+Go to the following path on your computer: C:\Users\[YourUsername]\Documents\opentrack-2.3
+
+📋 2. Paste the files
+Take the .ini files you downloaded or received and paste them directly into this folder, alongside the files already there (you will notice other system files like default.ini are already present).
+
+🚀 3. Launch the program
+Open Opentrack.
+
+🔄 4. Select the profile
+On the main screen of the program, look for the dropdown menu under the Profile section. You will find your new profiles (RBR_LHD / RBR_RHD) there, ready to be selected!
 
 📢 "RBR LookAhead Steering Controller" and "Director's Cut" are NOT the same thing!
 - Since the names have been causing some confusion among drivers, it is important to clearly distinguish between these two utilities.
