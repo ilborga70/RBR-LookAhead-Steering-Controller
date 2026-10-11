@@ -8,7 +8,7 @@
 
 🛠️ Installation Guide: How to install configuration profiles on Opentrack
 
-To correctly add the profile files (the files with the .ini extension, such as RBR_LHD.ini or RBR_RHD.ini), follow these steps:
+To correctly add the profile file (RBR-AssettoCorsa-ACEVO-ilborga70.ini), follow these steps:
 
 **Download Configuration RBR Profile Files Opentrack-2.3: https://github.com/ilborga70/RBR-LookAhead-Steering-Controller/releases/download/0.9.0.0/How.to.install.configuration.profiles.on.Opentrack.zip**
 
