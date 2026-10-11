@@ -24,7 +24,7 @@ Go to the following path on your computer: C:\Users[YourUsername]\Documents\open
 
 🔄 4. Select the profile On the main screen of the program, look for the dropdown menu under the Profile section.
 
-You will find your new profiles (RBR_LHD / RBR_RHD) there, ready to be selected!
+You will find your new profile (RBR-AssettoCorsa-ACEVO-ilborga70.ini) there, ready to be selected!
 
 ## 🛠️ Step-by-Step Setup Guide
 0. **Download OpenTrack: https://github.com/opentrack/opentrack**
