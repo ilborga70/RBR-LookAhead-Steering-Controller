@@ -12,6 +12,8 @@ To correctly add the profile file (RBR-AssettoCorsa-ACEVO-ilborga70.ini), follow
 
 **Download Configuration RBR Profile Files Opentrack-2.3: https://github.com/ilborga70/RBR-LookAhead-Steering-Controller/releases/download/0.9.0.0/How.to.install.configuration.profiles.on.Opentrack.zip**
 
+<img width="2560" height="1080" alt="RBR Configuration Profiles Opentrack" src="https://github.com/user-attachments/assets/f9850c6d-ad07-481d-a5e3-4ad4256a46d9" />
+
 📂 1. Find the correct folder Regardless of whether you use the Portable or Installer version, Opentrack always looks for profiles in your personal Documents folder.
 
 Go to the following path on your computer: C:\Users[YourUsername]\Documents\opentrack-2.3
