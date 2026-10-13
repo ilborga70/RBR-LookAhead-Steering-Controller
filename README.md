@@ -27,18 +27,28 @@ Go to the following path on your computer: C:\Users[YourUsername]\Documents\open
 You will find your new profile (RBR-AssettoCorsa-ACEVO-ilborga70.ini) there, ready to be selected!
 
 ## 🛠️ Step-by-Step Setup Guide
-0. **Download OpenTrack: https://github.com/opentrack/opentrack**
-1. **Configure OpenTrack:**
-   * Open OpenTrack and set **Input** to *UDP over network* (default port is usually `4242`).
+
+0. **Download OpenTrack:**  
+   Download and install OpenTrack from the official release page:  
+   👉 [OpenTrack Releases](https://github.com/opentrack/opentrack)
+
+1. **Configure OpenTrack (Universal Output Matrix):**
+   * Open OpenTrack and set **Input** to *UDP over network* (Port `4242`).
    * Set **Output** to *freetrack 2.0 Enhanced*.
+   * Go to **Options → Output** and configure the matrix as follows:
+     * **Yaw:** Source ➡️ `Yaw`
+     * **Pitch:** Source ➡️ `Roll`
+     * **Roll:** Source ➡️ `Roll` + Enable **Post-Invert**
    * Click **Start**.
 
-2. **Enable TrackIR in RBR:**
+2. **Enable TrackIR in RBR (Richard Burns Rally):**
    * Open `RichardBurnsRally.ini` in your main RBR installation folder using Notepad.
    * Add or edit the line: `UseTrackIR = true`
 
-3. **Launch the Utility:**
-   * Extract the ZIP package and run the GUI executable.
+3. **Configure LookAhead Steering Controller:**
+   * Extract the ZIP package and run `LookAhead Steering Controller.exe` as Administrator.
+   * Set **Wheel Degrees (Lock-to-Lock)** to `1800°` inside the utility to establish a maximum linear baseline.
+   * Adjust your physical steering lock degrees exclusively within your wheelbase driver software (e.g., Fanatec Fanalab, Simucube True Drive, Thrustmaster Control Panel).
    * Check the built-in diagnostic panel (**System Process Status**) to verify real-time connections for your wheel, OpenTrack, and the simulator.
 
 📢 "RBR LookAhead Steering Controller" and "Director's Cut" are NOT the same thing!
