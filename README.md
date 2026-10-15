@@ -79,4 +79,30 @@ Select the **Accela + Hamilton Filter** and set the parameters as follows:
 
 ---
 
+## 🎮 Windows Security & SimRacing: Why exclude the LookAhead Steering Controller? 🏎️💨
+
+Have you noticed this file in the Windows Defender exclusions? Let’s break down why adding `LookAhead Steering Controller.exe` is essential for your setup! 👇
+
+### 🛡️ 1. Preventing False Positives (Unjustified Blocks)
+This program is a third-party utility designed to calculate wheel movements and camera angles for racing simulators. Because it reads hardware data and shares it directly with other software (like OpenTrack), Windows Defender might mistake this behavior for malicious activity (like a keylogger). Adding it to your exclusions stops Windows from blocking or deleting it by mistake!
+
+### ⚡ 2. Eliminating Micro-Stuttering & Input Lag
+Windows Antivirus scans files in real-time. As shown in the software window, this controller transmits data at a very high frequency (**60Hz — 60 times per second**). If the antivirus analyzed every single data packet while you were driving, it would cause:
+- 📈 **Abnormal CPU spikes**
+- ⏱️ **Delayed inputs (input lag)**
+- 🛑 **Micro-stuttering during your races**
+
+### 📂 3. Why the Entire D:\ Drive is Excluded
+You can also see that the whole `D:\` folder is listed. Sim-racers often do this to prevent Microsoft Defender from constantly scanning heavy game files installed on a secondary HDD or SSD. This significantly improves overall loading times and game fluidity!
+
+---
+
+## 🔬 Is this file 100% safe?
+
+**Yes!** If you are worried about security, the file has been fully analyzed on Jotti's malware scan. The results show **0/13 scanners** reporting malware, meaning top antiviruses like Kaspersky, BitDefender, and Avast found absolutely nothing.
+
+🔗 **Check the full safety report here:** [Jotti's Malware Scan Report](https://virusscan.jotti.org/it-IT/filescanjob/g84ynyzizw)
+
+---
+
 👨‍💻 **Created by ilborga70** • [Pro-Sim Utilities Hub](https://ilborga70.github.io/Pro-Sim-Utilities-Hub)
