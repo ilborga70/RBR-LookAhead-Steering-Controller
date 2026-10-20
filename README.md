@@ -7,7 +7,19 @@ A lightweight, high-frequency (60Hz UDP) telemetry bridge designed to simulate r
 
 ---
 
-## 🆕 What's New in Version 0.9.0.0
+## 🆕 What's New in Version 1.0.0.0
+
+### ✨ New Features
+- **Pitch Axis Integration:** Added full support for dynamic control of the *Pitch* axis, allowing you to vertically tilt the camera view based on the steering angle.
+- **Dedicated GUI Controls:** Introduced a new `Checkbox` and `NumericUpDown` on the right-hand column to enable/disable and finely adjust the intensity of the *Pitch Tilt*.
+- **Extended UDP Telemetry:** The monitoring label at the bottom right now displays the three active axes (**Yaw**, **Pitch**, and **Roll**) in real-time.
+
+### 🛠️ Improvements & Optimizations
+- **OpenTrack UDP Protocol:** Updated the 48-byte binary buffer to correctly map *Pitch* at offset `8..15`, alongside *Yaw* (`24..31`) and *Roll* (`40..47`).
+- **Configuration Persistence (`config.json`):** Updated save, load, import, and export functions to include `EnablePitchTilt` and `PitchTiltSens` parameters.
+- **Internationalization (i18n):** Added complete translation strings (Italian / English) and related descriptive tooltips for the new controls.
+
+## 🆕 What's in Version 0.9.0.0
 
 - **Dynamic Apex Roll Tilt:** Added natural camera roll/tilt toward the corner apex when steering for enhanced immersion during high-speed cornering and drifting.
 - **UI Controls:** Added an **ON/OFF toggle** for the Roll Tilt feature, along with an intensity percentage adjustment slider/spinbox.
