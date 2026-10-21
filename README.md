@@ -49,9 +49,10 @@ A lightweight, high-frequency (60Hz UDP) telemetry bridge designed to simulate r
 
 ### 2. Configure LookAhead Steering Controller
 1. Extract the `LookAhead Steering Controller` archive and launch `LookAhead Steering Controller.exe` as **Administrator**.
-2. Set **Wheel Degrees (Lock-to-Lock)** to `1800°`.  
-   > 💡 **Technical Note:** Keeping `1800°` as a fixed baseline in the software provides a full 5-rotation dynamic scale (`1800 ÷ 2 = 900°`, `1800 ÷ 3.33 = 540°`, `1800 ÷ 5 = 360°`, `1800 ÷ 10 = 180°`), guaranteeing 100% linear telemetry without rounding errors.  
-3. **Important:** Adjust real physical steering lock degrees **exclusively within your wheelbase software** (e.g., Fanatec Fanalab, Simucube True Drive, Thrustmaster Control Panel) to match the car's specifications.
+2. **Set Steering Degrees:** Enter the exact steering lock value (degrees of rotation) required by the car in-game into the **LookAhead Steering Controller**.
+3. **Match Wheelbase Settings:** Set the exact same degree value directly in your physical wheelbase software (e.g., Fanatec Fanalab, Simucube True Drive, Thrustmaster Control Panel, Moza Pit House).
+
+> 💡 **Important:** Ensure that the steering lock degrees set in the **LookAhead Steering Controller**, in the **in-game car setup**, and in your **physical wheelbase software** are 100% identical for optimal telemetric precision and response.
 
 ---
 
@@ -104,11 +105,11 @@ You can also see that the whole `D:\` folder is listed. Sim-racers often do this
 
 **LookAhead Steering Controller** is an original utility developed and owned by **ilborga70**.
 
-* 🚫 **No Unauthorized Redistribution:** You may not re-upload, host, or redistribute the binary executable files (`.exe`), plugins (`.dll`, `.asi`), or codebase on any other website, forum, or repository without prior written consent.
-* 🏷️ **Attribution & Derivative Concept:** If you develop, publish, or share a similar utility, derivative project, or concept inspired by or built upon the methodologies introduced by *LookAhead Steering Controller* (such as high-frequency 60Hz UDP telemetry bridging or 1800° linear calibration matrices), **you must explicitly give clear credit and attribute the original concept and work to ilborga70** with a direct link back to this official repository.
-* 📦 **Mod Packaging:** Modpack creators and community developers must link directly to this official repository rather than bundling the software directly.
-* 💼 **Non-Commercial Use Only:** This software is provided free for personal, non-commercial use. Commercial monetization or bundling is strictly prohibited.
-* 🛡️ **Disclaimer:** Provided "as is" without warranty of any kind.
+- 🚫 **No Unauthorized Redistribution:** You may not re-upload, host, or redistribute the binary executable files (`.exe`), plugins (`.dll`, `.asi`), or codebase on any other website, forum, or repository without prior written consent.
+- 🏷️ **Attribution & Derivative Concept:** If you develop, publish, or share a similar utility, derivative project, or concept inspired by or built upon the methodologies introduced by *LookAhead Steering Controller* (such as high-frequency 60Hz UDP telemetry bridging or linear calibration matrices), **you must explicitly give clear credit and attribute the original concept and work to ilborga70** with a direct link back to this official repository.
+- 📦 **Mod Packaging:** Modpack creators and community developers must link directly to this official repository rather than bundling the software directly.
+- 💼 **Non-Commercial Use Only:** This software is provided free for personal, non-commercial use. Commercial monetization or bundling is strictly prohibited.
+- 🛡️ **Disclaimer:** Provided "as is" without warranty of any kind.
 
 ---
 
