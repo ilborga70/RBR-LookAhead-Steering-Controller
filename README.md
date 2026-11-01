@@ -64,7 +64,8 @@ Open OpenTrack and set **Input** to `UDP over network` (Port `4242`) and **Outpu
 #### A. Options → Output Matrix
 Configure the mapping matrix so a single profile works universally across both **LHD** and **RHD** vehicles:
 
-<img width="2560" height="1044" alt="RBR LookAhead Steering Controller v1 0 0 0" src="https://github.com/user-attachments/assets/f7ab919f-bef1-439b-b305-a78b015d4a19" />
+<img width="2041" height="714" alt="New-opentrack-setup" src="https://github.com/user-attachments/assets/1fe6aa41-39e4-4d23-abe0-0bb33232063e" />
+
 
 ---
 
