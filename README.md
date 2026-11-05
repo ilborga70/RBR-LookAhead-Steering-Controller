@@ -104,6 +104,8 @@ Don't worry — the code has been reviewed by IT experts and has been found to b
 
 🔗 **Check the full safety report here:** [Jotti's Malware Scan Report](https://virusscan.jotti.org/it-IT/filescanjob/g84ynyzizw)
 
+![1000092622](https://github.com/user-attachments/assets/f22a83c0-4dee-49ef-957b-4acb7290bf9d)
+
 ---
 
 ## 📜 Intellectual Property & Attribution Notice
