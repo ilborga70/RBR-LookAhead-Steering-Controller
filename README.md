@@ -23,15 +23,6 @@ A lightweight, high-frequency (60Hz UDP) telemetry bridge designed to simulate r
 
 ---
 
-## 🆕 What's in Version 0.9.0.0
-
-* **Dynamic Apex Roll Tilt:** Added natural camera roll/tilt toward the corner apex when steering for enhanced immersion during high-speed cornering and drifting.
-* **UI Controls:** Added an ON/OFF toggle for the Roll Tilt feature, along with an intensity percentage adjustment slider/spinbox.
-* **Complete UDP Telemetry:** Real-time visual display in the GUI for both Yaw and Roll values sent directly to OpenTrack at 60Hz.
-* **JSON Configuration Persistence:** Integrated automatic saving and loading for the Roll Tilt settings into the project's `.json` configuration file.
-
----
-
 ## 🛠️ Step-by-Step Setup Guide (RBR)
 
 ### 0. Download & Install Prerequisites
