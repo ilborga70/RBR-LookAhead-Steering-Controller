@@ -108,15 +108,17 @@ To ensure maximum security and integrity, **LookAhead Steering Controller.exe** 
   Get-FileHash ".\LookAhead Steering Controller.exe" -Algorithm SHA256
   ```
 
-### ⚠️ Windows SmartScreen Notice
-Since the executable uses a personal self-signed root certificate, Windows SmartScreen may display a warning screen (*"Windows protected your PC"*) upon the first launch on a new system:
-1. Click on **More info** (*Ulteriori informazioni*).
-2. Verify that the Publisher is listed as **ilborga70**.
-3. Click **Run anyway** (*Esegui comunque*).
+### ⚠️ Windows SmartScreen Notice & Unblocking Guide
+Since the executable uses a personal self-signed root certificate, Windows SmartScreen may block the execution without showing the "Run anyway" button on some systems. 
 
-### 📦 Installing the Public Certificate (Optional)
-If you want to prevent Windows SmartScreen warnings permanently on your machine, you can install the included public certificate (**LookAhead Steering Controller.cer**) into your system's trusted store:
+#### Option A: Quick Unblock File Properties (Recommended)
+1. Right-click on `LookAhead Steering Controller.exe` → Select **Properties**.
+2. At the bottom of the **General** tab, check the **Unblock** (*Annulla blocco*) checkbox.
+3. Click **Apply** and then **OK**.
+4. Launch the application normally.
 
+#### Option B: Installing the Public Certificate
+To permanently trust all updates from `ilborga70` without SmartScreen warnings:
 * **Manual Installation:** Double-click `LookAhead Steering Controller.cer` → **Install Certificate** → Select **Local Machine** → Choose **Trusted Root Certification Authorities** (*Autorità di certificazione radice affidabili*).
 * **PowerShell (Admin):**
   ```powershell
