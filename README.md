@@ -1,6 +1,6 @@
 # 🏎️ RBR LookAhead Steering Controller
 
-<img width="800" height="800" alt="1000092343" src="https://github.com/user-attachments/assets/6fc6eded-94d5-49a8-addd-4e978ecc64e5" />
+<img width="1393" height="746" alt="RBR LookAhead Steering Controller v1 1 0 0" src="https://github.com/user-attachments/assets/a644bbad-e8ee-456a-9dfc-fb869d69ced2" />
 
 > **Universal Telemetric Camera Bridge for Richard Burns Rally (RBR)**  
 > *Developed by ilborga70*
@@ -9,7 +9,27 @@ A lightweight, high-frequency (60Hz UDP) telemetry bridge designed to simulate r
 
 ---
 
-## 🆕 What's New in Version 1.0.0.0
+## What's New in Version v1.1.0.0
+
+### ✨ New Features & UI Refresh
+* **Complete Interface Redesign (Modern Dark/Light UI):** Full visual overhaul of all controls in a modern flat style featuring Segoe UI typography and refined color palettes for both Light and Dark themes.
+* **Advanced Interactive Sliders:** Replaced legacy controls with modern, smooth TrackBar sliders, bidirectionally synchronized in real time with numeric input boxes for pinpoint tuning.
+* **Visual LED Status Indicators:** Replaced plain text strings with custom GDI+ circular LEDs (Green/Red/Gray) to monitor DirectInput Wheel connection, OpenTrack process status, and active Simulator detection at a glance.
+* **Real-Time Telemetry Monitor:** Added a dedicated visual axis gauge widget for Yaw, Pitch, and Roll to provide live visual feedback of the 60Hz UDP stream.
+* **Improved UX & Action Buttons:** Redesigned action buttons (Save, Export, Import, Apply Real-Time) with clean spacing and padding to eliminate any overlapping elements.
+
+### 🚗 Car Database & Simulator Compatibility
+* **Expanded Real Car Database:** Updated the list of realistic car steering presets (up to 1080°).
+* **Extended Simulator Support ($knownGames):** Added a comprehensive, up-to-date list of all major racing simulators, rally titles, truck/off-road sims, and classic driving games with wheel and head-tracking support (including Assetto Corsa EVO, Le Mans Ultimate, EA Sports WRC, F1 series, BeamNG.drive, iRacing, Automobilista 2, Richard Burns Rally, and many more).
+
+### 🛠️ Fixes & Stability
+* **Parser & Encoding Fixes:** Resolved PowerShell parser and UTF-8 character encoding issues (such as the degree symbol °) in localized strings.
+* **UI Layout & Spacing Fix:** Adjusted vertical padding and panel heights to prevent sliders from overlapping adjacent labels.
+* **Core Logic Preserved:** The underlying DirectInput engine, asynchronous 60Hz UDP background thread, config.json management, and full IT/EN localization/tooltips remain 100% intact for maximum stability and backward compatibility.
+
+---
+
+## What's New in Version 1.0.0.0
 
 ### ✨ New Features
 * **Pitch Axis Integration:** Added full support for dynamic control of the Pitch axis, allowing you to vertically tilt the camera view based on the steering angle.
@@ -51,7 +71,7 @@ Open OpenTrack and set **Input** to `UDP over network` (Port `4242`) and **Outpu
 #### A. Options → Output Matrix
 Configure the mapping matrix so a single profile works universally across both LHD and RHD vehicles.
 
-<img width="2560" height="1080" alt="New-opentrack-setup" src="https://github.com/user-attachments/assets/1fe6aa41-39e4-4d23-abe0-0bb33232063e" />
+<img width="2560" height="900" alt="New-opentrack-setup" src="https://github.com/user-attachments/assets/1fe6aa41-39e4-4d23-abe0-0bb33232063e" />
 
 ### 4. Run & Drive
 1. Click **Start** inside OpenTrack.
