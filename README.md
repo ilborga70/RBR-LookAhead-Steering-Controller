@@ -1,17 +1,22 @@
-# 🏎️ RBR LookAhead Steering Controller
+# RBR LookAhead Steering Controller
 
-<img width="1393" height="746" alt="RBR LookAhead Steering Controller v1 1 0 0" src="https://github.com/user-attachments/assets/a644bbad-e8ee-456a-9dfc-fb869d69ced2" />
+<img width="1393" height="746" alt="RBR LookAhead Steering Controller v1 2 0 0" src="https://github.com/user-attachments/assets/2d351ee3-cec5-4653-bc41-f6d503d41506" />
 
 > **Universal Telemetric Camera Bridge for Richard Burns Rally (RBR)**  
 > *Developed by ilborga70*
 
 A lightweight, high-frequency (60Hz UDP) telemetry bridge designed to simulate realistic head and camera movement in Richard Burns Rally without requiring VR headsets or head-tracking hardware.
 
+## RBR LookAhead Steering Controller v1.2.0.0
+
+### 🇬🇧 What's New & Fixes
+* **Fixed FFB Bumpstop Yaw Inversion (End-Stop Spike Protection):** Resolved an issue on DirectInput steering wheels (e.g., Fanatec CSL bases) where Force Feedback oscillations at full lock caused raw axis spikes (`dwXpos` / `dwRpos`), triggering sudden camera inversion to the opposite side.
+* **Raw Input Delta Filter:** Added a frame-to-frame delta threshold in the 60Hz background polling loop to ignore instantaneous full-scale signal jumps caused by bumpstop impacts.
+* **Axis Boundary Clamping:** Enforced strict clamping within the configured wheel lock range (`±WheelLock / 2`) and final UDP output values (`Yaw`, `Pitch`, `Roll`).
+
 ---
 
-## What's New in Version v1.1.0.0
-
-### ✨ New Features & UI Refresh
+### 🇬🇧 New Features & UI Refresh
 * **Complete Interface Redesign (Modern Dark/Light UI):** Full visual overhaul of all controls in a modern flat style featuring Segoe UI typography and refined color palettes for both Light and Dark themes.
 * **Advanced Interactive Sliders:** Replaced legacy controls with modern, smooth TrackBar sliders, bidirectionally synchronized in real time with numeric input boxes for pinpoint tuning.
 * **Visual LED Status Indicators:** Replaced plain text strings with custom GDI+ circular LEDs (Green/Red/Gray) to monitor DirectInput Wheel connection, OpenTrack process status, and active Simulator detection at a glance.
@@ -29,9 +34,7 @@ A lightweight, high-frequency (60Hz UDP) telemetry bridge designed to simulate r
 
 ---
 
-## What's New in Version 1.0.0.0
-
-### ✨ New Features
+### 🇬🇧 New Features
 * **Pitch Axis Integration:** Added full support for dynamic control of the Pitch axis, allowing you to vertically tilt the camera view based on the steering angle.
 * **Dedicated GUI Controls:** Introduced a new Checkbox and NumericUpDown on the right-hand column to enable/disable and finely adjust the intensity of the Pitch Tilt.
 * **Extended UDP Telemetry:** The monitoring label at the bottom right now displays the three active axes (Yaw, Pitch, and Roll) in real-time.
